@@ -178,15 +178,15 @@ print(pow(5, 3))
 import math
 
 #ceil
-print(math.ceil(5.1))   # x 이상의 수 중에서 가장 작은 정수
-print(math.ceil(8.999))
+print('ceil', math.ceil(5.1))   # x 이상의 수 중에서 가장 작은 정수
+print('ceil', math.ceil(8.999))
 
 #floor
-print(math.floor(3.874)) # x 이하의 수 중에서 가장 큰 정수
-print(math.floor(-25.5))
+print('floor', math.floor(3.874)) # x 이하의 수 중에서 가장 큰 정수
+print('floor', math.floor(-25.5))
 
 #pi
-print(math.pi)
+print('pi', math.pi)
 
 # 그 밖에 함수는 아래 URL 참조
 # https://docs.python.org/3/library/math.html
@@ -194,3 +194,7 @@ print(math.pi)
 
 # 2진수 변환
 print(bin(50)) #0b로 시작
+
+print(abs(-8)) # 절대값
+n, m = divmod(100,8) # 몫, 나머지 
+print(n, m)
